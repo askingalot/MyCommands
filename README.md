@@ -46,7 +46,8 @@ For commands that involve files, it is assumed that the files are text - _not bi
 ### mysort
 
 > [sort](https://linux.die.net/man/1/sort) FILE  
-> Sort the content of FILE alphabetically and print it to the screen. Do not change the file.
+> Sort the content of FILE alphabetically and print it to the screen. Do not change the file.  
+> **NOTE:** You can use the file, `unordered.txt` in this repo for testing.
 
 ### mytouch
 
