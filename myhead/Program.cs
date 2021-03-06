@@ -5,7 +5,7 @@ const int LINE_COUNT = 10;
 
 if (args.Length != 1)
 {
-    Console.WriteLine("USAGE: myhead <filename>");
+    Console.Error.WriteLine("USAGE: myhead <filename>");
     Environment.Exit(1);
 }
 
@@ -13,7 +13,7 @@ var filename = args[0];
 
 if (!File.Exists(filename))
 {
-    Console.WriteLine($"No such file: {filename}");
+    Console.Error.WriteLine($"No such file: {filename}");
     Environment.Exit(1);
 }
 
