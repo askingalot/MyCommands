@@ -21,7 +21,7 @@ foreach (var filename in args)
 
     using var reader = new StreamReader(filename);
     int numRead;
-    while ((numRead = reader.Read(buffer, 0, BUFFER_SIZE)) != 0)
+    while ((numRead = reader.Read(buffer)) != 0)
     {
         Console.Write(buffer, 0, numRead);
     }
